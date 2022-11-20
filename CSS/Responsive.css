@@ -1,0 +1,63 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner {
+      height: 660px;
+    }
+    #banner .banner_content h1 {
+      font-size: 55px;
+      letter-spacing: 25px;
+    }
+    #about {
+      padding: 70px 0;
+    }
+    #about .about_item {
+      padding: 36px 45px;
+    }
+    #service .service_item {
+      padding: 25px 90px 25px 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #banner {
+      height: 600px;
+    }
+    #banner .banner_content h4 {
+      font-size: 25px;
+    }
+    #banner .banner_content h1 {
+      font-size: 40px;
+      letter-spacing: 20px;
+    }
+  
+    #banner .banner_content img {
+      margin: 40px auto;
+    }
+    #banner .banner_content a {
+      font-size: 14px;
+      padding: 12px 30px;
+      letter-spacing: 2px;
+    }
+    #about .about_item:nth-child(2n) {
+      border-right: none;
+    }
+  
+    #service {
+      background: #f0f0e8;
+    }
+    #service .service_item {
+     padding: initial;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+  }
+  
+  @media (max-width: 575.98px) {
+  }
+  
+  
+  @media (max-width:767.97px){
+     #service {
+        background: #f0f0e8;
+      }
+  }
